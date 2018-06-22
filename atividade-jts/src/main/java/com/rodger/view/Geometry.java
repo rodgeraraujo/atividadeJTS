@@ -46,44 +46,9 @@ public class Geometry extends javax.swing.JFrame {
     private void initComponents() {
 
         panel = new javax.swing.JPanel();
-        geometryALabel = new javax.swing.JLabel();
-        geometryBLabel = new javax.swing.JLabel();
-        processButton = new javax.swing.JButton();
-        equalsLabel = new javax.swing.JLabel();
-        disjointLabel = new javax.swing.JLabel();
-        intersectsLabel = new javax.swing.JLabel();
-        touchesLabel = new javax.swing.JLabel();
-        crossesLabel = new javax.swing.JLabel();
-        withinLabel = new javax.swing.JLabel();
-        containsLabel = new javax.swing.JLabel();
-        overlapsLabel = new javax.swing.JLabel();
-        coversLabel = new javax.swing.JLabel();
-        coveredByLabel = new javax.swing.JLabel();
-        equalsTextField = new javax.swing.JTextField();
-        disjointTextField = new javax.swing.JTextField();
-        intersectsTextField = new javax.swing.JTextField();
-        touchesTextField = new javax.swing.JTextField();
-        crossesTextField = new javax.swing.JTextField();
-        withinTextField = new javax.swing.JTextField();
-        containsTextField = new javax.swing.JTextField();
-        overlapsTextField = new javax.swing.JTextField();
-        coversTextField = new javax.swing.JTextField();
-        coveredByTextField = new javax.swing.JTextField();
-        geometryATextField = new javax.swing.JTextField();
-        geometryBTextField = new javax.swing.JTextField();
         ABjLabel1 = new javax.swing.JLabel();
         SVGjPanel1 = new javax.swing.JPanel();
         JpgImagejLabel3 = new javax.swing.JLabel();
-        equalsTextField1 = new javax.swing.JTextField();
-        disjointTextField1 = new javax.swing.JTextField();
-        intersectsTextField1 = new javax.swing.JTextField();
-        touchesTextField1 = new javax.swing.JTextField();
-        crossesTextField1 = new javax.swing.JTextField();
-        withinTextField1 = new javax.swing.JTextField();
-        containsTextField1 = new javax.swing.JTextField();
-        overlapsTextField1 = new javax.swing.JTextField();
-        coversTextField1 = new javax.swing.JTextField();
-        coveredByTextField1 = new javax.swing.JTextField();
         BAjLabel4 = new javax.swing.JLabel();
         GeometryDrawjLabel6 = new javax.swing.JLabel();
         DevelopedByjLabel7 = new javax.swing.JLabel();
@@ -95,7 +60,7 @@ public class Geometry extends javax.swing.JFrame {
         panel.setBackground(new java.awt.Color(236, 240, 241));
         panel.setForeground(new java.awt.Color(44, 62, 80));
 
-        geometryALabel.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        geometryALabel.setFont(new java.awt.Font("Droid Sans", 1, 18)); // NOI18N
         geometryALabel.setForeground(new java.awt.Color(44, 62, 80));
         geometryALabel.setText("Geometry A:");
 
@@ -104,7 +69,7 @@ public class Geometry extends javax.swing.JFrame {
         geometryBLabel.setText("Geometry B:");
 
         processButton.setBackground(new java.awt.Color(51, 51, 51));
-        processButton.setFont(processButton.getFont().deriveFont(processButton.getFont().getStyle() | java.awt.Font.BOLD, processButton.getFont().getSize()+2));
+        processButton.setFont(new java.awt.Font("Droid Sans", 1, 14)); // NOI18N
         processButton.setForeground(new java.awt.Color(204, 204, 204));
         processButton.setText("PROCESS");
         processButton.addActionListener(new java.awt.event.ActionListener() {
@@ -113,43 +78,43 @@ public class Geometry extends javax.swing.JFrame {
             }
         });
 
-        equalsLabel.setFont(equalsLabel.getFont().deriveFont(equalsLabel.getFont().getStyle() | java.awt.Font.BOLD));
+        equalsLabel.setFont(new java.awt.Font("Droid Sans", 1, 13)); // NOI18N
         equalsLabel.setForeground(new java.awt.Color(44, 62, 80));
         equalsLabel.setText("EQUALS");
 
-        disjointLabel.setFont(disjointLabel.getFont().deriveFont(disjointLabel.getFont().getStyle() | java.awt.Font.BOLD));
+        disjointLabel.setFont(new java.awt.Font("Droid Sans", 1, 13)); // NOI18N
         disjointLabel.setForeground(new java.awt.Color(44, 62, 80));
         disjointLabel.setText("DISJOINT");
 
-        intersectsLabel.setFont(intersectsLabel.getFont().deriveFont(intersectsLabel.getFont().getStyle() | java.awt.Font.BOLD));
+        intersectsLabel.setFont(new java.awt.Font("Droid Sans", 1, 13)); // NOI18N
         intersectsLabel.setForeground(new java.awt.Color(44, 62, 80));
         intersectsLabel.setText("INTERSECTS");
 
-        touchesLabel.setFont(touchesLabel.getFont().deriveFont(touchesLabel.getFont().getStyle() | java.awt.Font.BOLD));
+        touchesLabel.setFont(new java.awt.Font("Droid Sans", 1, 13)); // NOI18N
         touchesLabel.setForeground(new java.awt.Color(44, 62, 80));
         touchesLabel.setText("TOUCHES");
 
-        crossesLabel.setFont(crossesLabel.getFont().deriveFont(crossesLabel.getFont().getStyle() | java.awt.Font.BOLD));
+        crossesLabel.setFont(new java.awt.Font("Droid Sans", 1, 13)); // NOI18N
         crossesLabel.setForeground(new java.awt.Color(44, 62, 80));
         crossesLabel.setText("CROSSES");
 
-        withinLabel.setFont(withinLabel.getFont().deriveFont(withinLabel.getFont().getStyle() | java.awt.Font.BOLD));
+        withinLabel.setFont(new java.awt.Font("Droid Sans", 1, 13)); // NOI18N
         withinLabel.setForeground(new java.awt.Color(44, 62, 80));
         withinLabel.setText("WITHIN");
 
-        containsLabel.setFont(containsLabel.getFont().deriveFont(containsLabel.getFont().getStyle() | java.awt.Font.BOLD));
+        containsLabel.setFont(new java.awt.Font("Droid Sans", 1, 13)); // NOI18N
         containsLabel.setForeground(new java.awt.Color(44, 62, 80));
         containsLabel.setText("CONTAINS");
 
-        overlapsLabel.setFont(overlapsLabel.getFont().deriveFont(overlapsLabel.getFont().getStyle() | java.awt.Font.BOLD));
+        overlapsLabel.setFont(new java.awt.Font("Droid Sans", 1, 13)); // NOI18N
         overlapsLabel.setForeground(new java.awt.Color(44, 62, 80));
         overlapsLabel.setText("OVERLAPS");
 
-        coversLabel.setFont(coversLabel.getFont().deriveFont(coversLabel.getFont().getStyle() | java.awt.Font.BOLD));
+        coversLabel.setFont(new java.awt.Font("Droid Sans", 1, 13)); // NOI18N
         coversLabel.setForeground(new java.awt.Color(44, 62, 80));
         coversLabel.setText("COVERS");
 
-        coveredByLabel.setFont(coveredByLabel.getFont().deriveFont(coveredByLabel.getFont().getStyle() | java.awt.Font.BOLD));
+        coveredByLabel.setFont(new java.awt.Font("Droid Sans", 1, 13)); // NOI18N
         coveredByLabel.setForeground(new java.awt.Color(44, 62, 80));
         coveredByLabel.setText("COVEREDBY");
 
@@ -217,11 +182,13 @@ public class Geometry extends javax.swing.JFrame {
         geometryBTextField.setFont(geometryBTextField.getFont().deriveFont(geometryBTextField.getFont().getStyle() | java.awt.Font.BOLD));
         geometryBTextField.setForeground(new java.awt.Color(44, 62, 80));
 
-        ABjLabel1.setFont(new java.awt.Font("Dialog", 1, 13)); // NOI18N
+        ABjLabel1.setFont(new java.awt.Font("Droid Sans", 1, 13)); // NOI18N
         ABjLabel1.setForeground(new java.awt.Color(44, 62, 80));
         ABjLabel1.setText("AB");
 
         SVGjPanel1.setBackground(new java.awt.Color(153, 153, 153));
+
+        JpgImagejLabel3.setForeground(new java.awt.Color(204, 204, 204));
 
         javax.swing.GroupLayout SVGjPanel1Layout = new javax.swing.GroupLayout(SVGjPanel1);
         SVGjPanel1.setLayout(SVGjPanel1Layout);
@@ -292,15 +259,15 @@ public class Geometry extends javax.swing.JFrame {
         coveredByTextField1.setFont(coveredByTextField1.getFont().deriveFont(coveredByTextField1.getFont().getStyle() | java.awt.Font.BOLD));
         coveredByTextField1.setForeground(new java.awt.Color(44, 62, 80));
 
-        BAjLabel4.setFont(new java.awt.Font("Dialog", 1, 13)); // NOI18N
+        BAjLabel4.setFont(new java.awt.Font("Droid Sans", 1, 13)); // NOI18N
         BAjLabel4.setForeground(new java.awt.Color(44, 62, 80));
         BAjLabel4.setText("BA");
 
-        GeometryDrawjLabel6.setFont(new java.awt.Font("Dialog", 1, 13)); // NOI18N
+        GeometryDrawjLabel6.setFont(new java.awt.Font("Droid Sans", 1, 13)); // NOI18N
         GeometryDrawjLabel6.setForeground(new java.awt.Color(44, 62, 80));
         GeometryDrawjLabel6.setText("GEOMETRY DRAW");
 
-        DevelopedByjLabel7.setFont(new java.awt.Font("Dialog", 1, 13)); // NOI18N
+        DevelopedByjLabel7.setFont(new java.awt.Font("Droid Sans", 1, 13)); // NOI18N
         DevelopedByjLabel7.setForeground(new java.awt.Color(44, 62, 80));
         DevelopedByjLabel7.setText("Developed by @rodgeraraujo");
 
@@ -511,14 +478,14 @@ public class Geometry extends javax.swing.JFrame {
                 //Get viewBox
                 ViewBox cViewBox = new ViewBox(geometryA, geometryB);
                 String viewBoxValue = cViewBox.getViewBox();
-                System.out.println("Value of viewBox is: " + viewBoxValue);
+                //System.out.println("Value of viewBox is: " + viewBoxValue);
 
                 //Get path geometryA
                 String pathGeometryAValue = SvgFactory.getSvg(geometryA);
                 String pathGeometryBValue = SvgFactory.getSvg(geometryB);
 
-                System.out.println("Value of path to geometry A is: " + pathGeometryAValue);
-                System.out.println("Value of path to geometry B is: " + pathGeometryBValue);
+                //System.out.println("Value of path to geometry A is: " + pathGeometryAValue);
+                //System.out.println("Value of path to geometry B is: " + pathGeometryBValue);
 
                 //AB
                 equalsTextField.setText("" + geometryA.equals(geometryB));
@@ -572,7 +539,7 @@ public class Geometry extends javax.swing.JFrame {
             } finally {
                 try {writer.close();} catch (Exception ex) {/*ignore*/}
             }
-
+          
             //SVG to JPG
             JPEGTranscoder t = new JPEGTranscoder();
             t.addTranscodingHint(JPEGTranscoder.KEY_QUALITY,
@@ -594,7 +561,7 @@ public class Geometry extends javax.swing.JFrame {
 
         } else {
 
-            JOptionPane.showMessageDialog(this, "geometry empty", "Error",
+            JOptionPane.showMessageDialog(this, "Empty fields!", "Error",
                 JOptionPane.ERROR_MESSAGE);
 
             equalsTextField.setText("");
@@ -608,9 +575,6 @@ public class Geometry extends javax.swing.JFrame {
             coversTextField.setText("");
             coveredByTextField.setText("");
         }
-        } catch (ParseException ex) {
-            JOptionPane.showMessageDialog(this, ex.getMessage(), "Error",
-                JOptionPane.ERROR_MESSAGE);
         } catch (MalformedURLException ex) {
             Logger.getLogger(Geometry.class.getName()).log(Level.SEVERE, null, ex);
         } catch (FileNotFoundException ex) {
@@ -619,6 +583,9 @@ public class Geometry extends javax.swing.JFrame {
             Logger.getLogger(Geometry.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
             Logger.getLogger(Geometry.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (ParseException ex) {
+            JOptionPane.showMessageDialog(this, ex.getMessage(), "Error",
+                JOptionPane.ERROR_MESSAGE);
         }
     }//GEN-LAST:event_processActionPerformed
 
@@ -662,42 +629,42 @@ public class Geometry extends javax.swing.JFrame {
     private javax.swing.JLabel GeometryDrawjLabel6;
     private javax.swing.JLabel JpgImagejLabel3;
     private javax.swing.JPanel SVGjPanel1;
-    private javax.swing.JLabel containsLabel;
-    private javax.swing.JTextField containsTextField;
-    private javax.swing.JTextField containsTextField1;
-    private javax.swing.JLabel coveredByLabel;
-    private javax.swing.JTextField coveredByTextField;
-    private javax.swing.JTextField coveredByTextField1;
-    private javax.swing.JLabel coversLabel;
-    private javax.swing.JTextField coversTextField;
-    private javax.swing.JTextField coversTextField1;
-    private javax.swing.JLabel crossesLabel;
-    private javax.swing.JTextField crossesTextField;
-    private javax.swing.JTextField crossesTextField1;
-    private javax.swing.JLabel disjointLabel;
-    private javax.swing.JTextField disjointTextField;
-    private javax.swing.JTextField disjointTextField1;
-    private javax.swing.JLabel equalsLabel;
-    private javax.swing.JTextField equalsTextField;
-    private javax.swing.JTextField equalsTextField1;
-    private javax.swing.JLabel geometryALabel;
-    private javax.swing.JTextField geometryATextField;
-    private javax.swing.JLabel geometryBLabel;
-    private javax.swing.JTextField geometryBTextField;
-    private javax.swing.JLabel intersectsLabel;
-    private javax.swing.JTextField intersectsTextField;
-    private javax.swing.JTextField intersectsTextField1;
-    private javax.swing.JLabel overlapsLabel;
-    private javax.swing.JTextField overlapsTextField;
-    private javax.swing.JTextField overlapsTextField1;
+    private final javax.swing.JLabel containsLabel = new javax.swing.JLabel();
+    private final javax.swing.JTextField containsTextField = new javax.swing.JTextField();
+    private final javax.swing.JTextField containsTextField1 = new javax.swing.JTextField();
+    private final javax.swing.JLabel coveredByLabel = new javax.swing.JLabel();
+    private final javax.swing.JTextField coveredByTextField = new javax.swing.JTextField();
+    private final javax.swing.JTextField coveredByTextField1 = new javax.swing.JTextField();
+    private final javax.swing.JLabel coversLabel = new javax.swing.JLabel();
+    private final javax.swing.JTextField coversTextField = new javax.swing.JTextField();
+    private final javax.swing.JTextField coversTextField1 = new javax.swing.JTextField();
+    private final javax.swing.JLabel crossesLabel = new javax.swing.JLabel();
+    private final javax.swing.JTextField crossesTextField = new javax.swing.JTextField();
+    private final javax.swing.JTextField crossesTextField1 = new javax.swing.JTextField();
+    private final javax.swing.JLabel disjointLabel = new javax.swing.JLabel();
+    private final javax.swing.JTextField disjointTextField = new javax.swing.JTextField();
+    private final javax.swing.JTextField disjointTextField1 = new javax.swing.JTextField();
+    private final javax.swing.JLabel equalsLabel = new javax.swing.JLabel();
+    private final javax.swing.JTextField equalsTextField = new javax.swing.JTextField();
+    private final javax.swing.JTextField equalsTextField1 = new javax.swing.JTextField();
+    private final javax.swing.JLabel geometryALabel = new javax.swing.JLabel();
+    private final javax.swing.JTextField geometryATextField = new javax.swing.JTextField();
+    private final javax.swing.JLabel geometryBLabel = new javax.swing.JLabel();
+    private final javax.swing.JTextField geometryBTextField = new javax.swing.JTextField();
+    private final javax.swing.JLabel intersectsLabel = new javax.swing.JLabel();
+    private final javax.swing.JTextField intersectsTextField = new javax.swing.JTextField();
+    private final javax.swing.JTextField intersectsTextField1 = new javax.swing.JTextField();
+    private final javax.swing.JLabel overlapsLabel = new javax.swing.JLabel();
+    private final javax.swing.JTextField overlapsTextField = new javax.swing.JTextField();
+    private final javax.swing.JTextField overlapsTextField1 = new javax.swing.JTextField();
     private javax.swing.JPanel panel;
-    private javax.swing.JButton processButton;
-    private javax.swing.JLabel touchesLabel;
-    private javax.swing.JTextField touchesTextField;
-    private javax.swing.JTextField touchesTextField1;
-    private javax.swing.JLabel withinLabel;
-    private javax.swing.JTextField withinTextField;
-    private javax.swing.JTextField withinTextField1;
+    private final javax.swing.JButton processButton = new javax.swing.JButton();
+    private final javax.swing.JLabel touchesLabel = new javax.swing.JLabel();
+    private final javax.swing.JTextField touchesTextField = new javax.swing.JTextField();
+    private final javax.swing.JTextField touchesTextField1 = new javax.swing.JTextField();
+    private final javax.swing.JLabel withinLabel = new javax.swing.JLabel();
+    private final javax.swing.JTextField withinTextField = new javax.swing.JTextField();
+    private final javax.swing.JTextField withinTextField1 = new javax.swing.JTextField();
     // End of variables declaration//GEN-END:variables
 
 }
